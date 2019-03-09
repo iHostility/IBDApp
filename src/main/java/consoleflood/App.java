@@ -1,13 +1,17 @@
 package consoleflood;
 
 /**
- * Hello world!
+ * General console flood for work activity imitation
+ * made by iHostility
+ * Voloshin Denis
  *
  */
+
 public class App 
 {
     public static void main( String[] args )
     {
-        System.out.println( "Hello World!" );
+        Database base = new Database();
+        base.run();
     }
 }
