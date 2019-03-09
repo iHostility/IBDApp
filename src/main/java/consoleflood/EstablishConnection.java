@@ -5,8 +5,8 @@ import java.sql.SQLException;
 
 
 class EstablishConnection {
-    private final String driverName = "com.mysql.jdbc.Driver";
-    private final String connectionString = "jdbc:mysql://localhost:3306/ibdapp";
+    private final String driverName = "com.mysql.cj.jdbc.Driver";
+    private final String connectionString = "jdbc:mysql://localhost:3306/ibdapp?useSSL=false";
     private final String login = "service";
     private final String password = "1";
 
