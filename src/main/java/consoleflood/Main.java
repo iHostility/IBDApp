@@ -2,24 +2,21 @@ package consoleflood;
 
 import java.sql.Connection;
 
-/**
- * General console flood for work activity imitation
- * made by iHostility
- * Voloshin Denis
- */
 
 public class Main {
     static Connection connection = null;
 
     public static void main(String[] args) {
-        new EstablishConnection().run();
+        new EstablishConnection().run(); //TODO review connection code
 
-        //TODO add to do some stuff here
-        System.out.println("RRRRREEEEEEEEE");
-        new Output().run();
+        try {
+            new Output().run();
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
 
         new ShutdownConnection().run();
 
-
     }
+
 }

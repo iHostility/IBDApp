@@ -25,7 +25,6 @@ class EstablishConnection {
         } catch (SQLException e) {
             System.out.println("Can't get connection. Incorrect URL");
             e.printStackTrace();
-            return;
         }
     }
 }
