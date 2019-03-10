@@ -1,16 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c2dcf27d-c4fb-4f9e-8536-1a40606565a2" name="Default Changelist" comment="Divided connection assets to establish and closing.&#10;Prepared to add main function in between.">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/consoleflood/Output.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/consoleflood/ShutdownConnection.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__mysql_mysql_connector_java_5_1_38.xml" beforeDir="false" />
+    <list default="true" id="c2dcf27d-c4fb-4f9e-8536-1a40606565a2" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/IBDApp.iml" beforeDir="false" afterPath="$PROJECT_DIR$/IBDApp.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/consoleflood/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/consoleflood/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/consoleflood/Database.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/consoleflood/EstablishConnection.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/consoleflood/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/consoleflood/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/consoleflood/Output.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/consoleflood/Output.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -30,23 +24,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/consoleflood/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="345">
-              <caret line="28" lean-forward="true" selection-start-line="28" selection-end-line="28" />
-              <folding>
-                <element signature="docComment;class#App#0" />
-              </folding>
+            <state relative-caret-position="375">
+              <caret line="25" selection-start-line="25" selection-end-line="25" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/consoleflood/EstablishConnection.java">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/consoleflood/Output.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="420">
-              <caret line="28" column="9" lean-forward="true" selection-start-line="28" selection-start-column="9" selection-end-line="28" selection-end-column="9" />
+            <state relative-caret-position="150">
+              <caret line="10" column="33" lean-forward="true" selection-start-line="10" selection-start-column="33" selection-end-line="10" selection-end-column="33" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -55,10 +46,18 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/consoleflood/ShutdownConnection.java">
+        <entry file="file://$PROJECT_DIR$/src/test/resources/sql.sql">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/consoleflood/EstablishConnection.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="9" column="50" selection-start-line="9" selection-start-column="50" selection-end-line="9" selection-end-column="50" />
+            <state relative-caret-position="195">
+              <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -86,13 +85,13 @@
         <option value="$PROJECT_DIR$/src/main/java/consoleflood/database.java" />
         <option value="$PROJECT_DIR$/src/main/java/consoleflood/App.java" />
         <option value="$PROJECT_DIR$/src/main/java/consoleflood/Database.java" />
-        <option value="$PROJECT_DIR$/src/main/java/consoleflood/Output.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="849ef800-9319-4738-9718-25fe73508edc/consoles/IBDApp" />
-        <option value="$PROJECT_DIR$/src/test/resources/sql.sql" />
-        <option value="$PROJECT_DIR$/src/main/java/consoleflood/EstablishConnection.java" />
         <option value="$PROJECT_DIR$/src/main/java/consoleflood/ShutdownConnection.java" />
+        <option value="$PROJECT_DIR$/src/test/resources/sql.sql" />
         <option value="$PROJECT_DIR$/src/main/java/consoleflood/Main.java" />
+        <option value="$PROJECT_DIR$/src/main/java/consoleflood/EstablishConnection.java" />
+        <option value="$PROJECT_DIR$/src/main/java/consoleflood/Output.java" />
       </list>
     </option>
   </component>
@@ -136,7 +135,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -198,20 +197,15 @@
               <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="IBDApp" type="b2602c69:ProjectViewProjectNode" />
-              <item name="IBDApp" type="462c0819:PsiDirectoryNode" />
-              <item name="target" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1552136043081" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1552218009695" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
@@ -275,7 +269,21 @@
       <option name="project" value="LOCAL" />
       <updated>1552128773394</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Divided connection assets to establish and closing.&#10;Prepared to add main function in between.">
+      <created>1552136081533</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1552136081533</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Minor fixes">
+      <created>1552136737174</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1552136737174</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TodoView">
@@ -289,16 +297,16 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="1920" y="25" width="1920" height="1175" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49500713" visible="true" weight="0.14781217" />
-      <window_info id="Structure" order="1" sideWeight="0.50499284" side_tool="true" visible="true" weight="0.14781217" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4935806" visible="true" weight="0.14941302" />
+      <window_info id="Structure" order="1" sideWeight="0.5064194" side_tool="true" visible="true" weight="0.14941302" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Image Layers" order="3" />
       <window_info id="Designer" order="4" />
       <window_info id="UI Designer" order="5" />
       <window_info id="Learn" order="6" sideWeight="0.49904397" weight="0.1995731" />
       <window_info id="Favorites" order="7" side_tool="true" />
-      <window_info anchor="bottom" id="DB Execution Console" weight="0.3298279" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3298279" />
@@ -310,15 +318,16 @@
       <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.50053364" side_tool="true" weight="0.3288719" />
       <window_info anchor="bottom" id="Version Control" order="9" weight="0.3298279" />
       <window_info anchor="bottom" id="Messages" order="10" weight="0.3298279" />
+      <window_info anchor="bottom" id="DB Execution Console" order="11" weight="0.3298279" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Maven" order="1" sideWeight="0.403709" visible="true" weight="0.17022412" />
+      <window_info anchor="right" id="Maven" order="1" sideWeight="0.40228245" visible="true" weight="0.17022412" />
       <window_info anchor="right" id="Ant Build" order="2" weight="0.2497332" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="3" weight="0.25" />
       <window_info anchor="right" id="Palette" order="4" />
       <window_info anchor="right" id="Theme Preview" order="5" />
       <window_info anchor="right" id="Capture Analysis" order="6" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
-      <window_info anchor="right" id="DB Browser" order="8" sideWeight="0.596291" side_tool="true" visible="true" weight="0.17022412" />
+      <window_info anchor="right" id="DB Browser" order="8" sideWeight="0.5977175" side_tool="true" visible="true" weight="0.17022412" />
     </layout>
   </component>
   <component name="UpdateCopyrightCheckinHandler">
@@ -329,7 +338,8 @@
     <MESSAGE value="Initial commit" />
     <MESSAGE value="Added mysql database connection" />
     <MESSAGE value="Divided connection assets to establish and closing.&#10;Prepared to add main function in between." />
-    <option name="LAST_COMMIT_MESSAGE" value="Divided connection assets to establish and closing.&#10;Prepared to add main function in between." />
+    <MESSAGE value="Minor fixes" />
+    <option name="LAST_COMMIT_MESSAGE" value="Minor fixes" />
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
@@ -343,17 +353,43 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/consoleflood/Output.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/consoleflood/ShutdownConnection.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" selection-start-line="5" selection-end-line="5" />
+        <state relative-caret-position="135">
+          <caret line="9" column="50" selection-start-line="9" selection-start-column="50" selection-end-line="9" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="db://849ef800-9319-4738-9718-25fe73508edc/object_contents/CODE/schemas/information_schema/views/GLOBAL_VARIABLES">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="db://849ef800-9319-4738-9718-25fe73508edc/objects/schemas/information_schema/views/GLOBAL_VARIABLES">
+      <provider editor-type-id="1.DATA">
+        <state row-count="0" readonly="false">
+          <columns>
+            <column name="VARIABLE_NAME" position="0" visible="true" />
+            <column name="VARIABLE_VALUE" position="1" visible="true" />
+          </columns>
+          <sorting />
+          <content-types />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="0.CODE">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/resources/sql.sql">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/consoleflood/EstablishConnection.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="14" selection-start-column="14" selection-end-column="14" />
+        <state relative-caret-position="195">
+          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -364,29 +400,19 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/consoleflood/EstablishConnection.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="28" column="9" lean-forward="true" selection-start-line="28" selection-start-column="9" selection-end-line="28" selection-end-column="9" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/consoleflood/ShutdownConnection.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="50" selection-start-line="9" selection-start-column="50" selection-end-line="9" selection-end-column="50" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/consoleflood/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="28" lean-forward="true" selection-start-line="28" selection-end-line="28" />
+        <state relative-caret-position="375">
+          <caret line="25" selection-start-line="25" selection-end-line="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/consoleflood/Output.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="33" lean-forward="true" selection-start-line="10" selection-start-column="33" selection-end-line="10" selection-end-column="33" />
           <folding>
-            <element signature="docComment;class#App#0" />
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
