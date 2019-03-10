@@ -8,7 +8,7 @@ class Output {
 
             String query = "select * from ibdapp.dictionary";
             int a = 10;
-            int b = 10000;
+            int b = 5000;
             int delay = a + (int) (Math.random() * b);
 
             PreparedStatement prepStat = exec.prepareStatement(query);
