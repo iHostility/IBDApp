@@ -7,7 +7,7 @@ public class Main {
     static Connection connection = null;
 
     public static void main(String[] args) {
-        new EstablishConnection().run(); //TODO review connection code
+        new EstablishConnection().run();
 
         try {
             new Output().run();

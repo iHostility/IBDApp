@@ -1,10 +1,13 @@
 package consoleflood;
 
-import java.sql.*;
+import java.sql.Connection;
+import java.sql.PreparedStatement;
+import java.sql.ResultSet;
+import java.sql.SQLException;
 
 class Output {
     void run() throws Exception {
-        try (Connection exec = Main.connection; Statement statement = exec.createStatement()) {
+        try (Connection exec = Main.connection) {
 
             String query = "select * from ibdapp.dictionary";
             int a = 10;

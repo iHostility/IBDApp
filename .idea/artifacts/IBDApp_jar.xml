@@ -3,8 +3,8 @@
     <output-path>$PROJECT_DIR$/classes/artifacts/IBDApp_jar</output-path>
     <root id="archive" name="IBDApp.jar">
       <element id="module-output" name="IBDApp" />
-      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/mysql/mysql-connector-java/8.0.15/mysql-connector-java-8.0.15.jar" path-in-jar="/" />
       <element id="extracted-dir" path="$MAVEN_REPOSITORY$/com/google/protobuf/protobuf-java/3.6.1/protobuf-java-3.6.1.jar" path-in-jar="/" />
+      <element id="library" level="project" name="Maven: mysql:mysql-connector-java:5.1.39" />
     </root>
   </artifact>
 </component>
